@@ -1,0 +1,16 @@
+{
+  "name": "CI-Vitest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:ui": "vitest --ui --api 3000",
+    "test": "vitest",
+    "test:ci": "node ."
+  },
+  "dependencies": {
+    "@vitest/ui": "^0.34.6",
+    "vite": "^5.0.4",
+    "vitest": "^0.34.6"
+  }
+}
